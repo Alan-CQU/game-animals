@@ -27,7 +27,7 @@
             android:src="@drawable/red_heart256"/>
 
         <TextView
-            android:id="@+id/tv_cnt"
+            android:id="@+id/tv_cnt4"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
@@ -46,19 +46,19 @@
         android:weightSum="2">
 
         <ImageView
-            android:id="@+id/img_1"
+            android:id="@+id/img_41"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_weight="1"
-            android:src="@drawable/birdartboard256"
+            android:src="@drawable/houseartboard256"
             android:onClick="selected"/>
         <ImageView
-            android:id="@+id/img_2"
+            android:id="@+id/img_42"
             android:layout_weight="1"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:onClick="selected"
-            android:src="@drawable/catartboard256"/>
+            android:src="@drawable/pigartboard256"/>
 
     </LinearLayout>
 
@@ -69,28 +69,28 @@
         android:weightSum="2">
 
         <ImageView
-            android:id="@+id/img_3"
+            android:id="@+id/img_43"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_weight="1"
-            android:onClick="selected"
-            android:src="@drawable/fishartboard256"/>
-        <ImageView
-            android:id="@+id/img_4"
-            android:layout_weight="1"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
             android:onClick="selected"
             android:src="@drawable/honeyartboard256"/>
+        <ImageView
+            android:id="@+id/img_44"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:onClick="selected"
+            android:src="@drawable/birdartboard256"/>
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/bt_accept"
+        android:id="@+id/bt_accept4"
         android:layout_marginTop="110dp"
         android:layout_gravity="center"
         android:layout_width="300dp"
-        android:text="HONEY"
+        android:text="HOUSE"
         android:fontFamily="@font/font_one"
         android:textSize="35dp"
         android:layout_height="wrap_content"

@@ -12,9 +12,33 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity android:name=".Task1">
+
+        </activity>
+        <activity android:name=".Task2">
+
+        </activity>
+        <activity android:name=".Task3">
+
+        </activity>
+        <activity android:name=".Task4">
+
+        </activity>
+        <activity android:name=".Task5">
+
+        </activity>
+        <activity android:name=".GameSuccess">
+
+        </activity>
+        <activity android:name=".GamOver">
+
+        </activity>
+        <activity android:name=".Setting">
+
         </activity>
     </application>
 

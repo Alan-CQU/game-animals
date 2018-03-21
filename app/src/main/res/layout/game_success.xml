@@ -32,6 +32,7 @@
         android:textSize="38sp"/>
 
     <Button
+        android:id="@+id/bt_success_exit"
         android:layout_marginTop="80dp"
         android:layout_gravity="center"
         android:layout_width="300dp"
