@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
             case R.id.btn_play:
                 startActivity(new Intent(MainActivity.this,Task1.class));
-                finish();
+
                 break;
             case R.id.btn_setting:
                 startActivity(new Intent(MainActivity.this,Setting.class));
@@ -40,5 +40,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             default:
                 break;
         }
+    }
+
+    @Override
+    public void onDestroy(){
+        super.onDestroy();
+        Intent intent = new Intent(MainActivity.this,BgMusicService.class);
+        stopService(intent);
     }
 }
