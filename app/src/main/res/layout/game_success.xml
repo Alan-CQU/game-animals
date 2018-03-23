@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:text="Congratulations!"
         android:fontFamily="@font/font_one"
-        android:textSize="38sp"/>
+        android:textSize="30sp"/>
 
     <TextView
         android:layout_marginTop="20dp"
@@ -29,11 +29,11 @@
         android:layout_height="wrap_content"
         android:text="You pass the Game!"
         android:fontFamily="@font/font_one"
-        android:textSize="38sp"/>
+        android:textSize="30sp"/>
 
     <Button
         android:id="@+id/bt_success_exit"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="50dp"
         android:layout_gravity="center"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
