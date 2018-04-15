@@ -28,5 +28,5 @@ Introduction for the game application "Find It"
 
 ---
     That's all.
-    Alan-CQU(20151733)  2018/3/22
+    Alan-CQU  2018/3/22
 ---
